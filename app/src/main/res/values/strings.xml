@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Bank Rosok</string>
+    <string name="deskripsi_jenis">Sampah merupakan hasil produksi manusia yang tidak akan pernah luput dari kehidupan sehari-hari. Lalu, jenis-jenis sampah apa yang biasanya kita hasilkan? Yuk, kenali di sini.\n\nSampah jika dibiarkan saja akan mengganggu kebersihan lingkungan secara umum. Sampah dapat dibedakan menjadi dua macam, yaitu:</string>
+    <string name="alumunium"><b>1. Kaleng dan Aluminium Berbentuk Gelas</b>\n\nSalah satu bentuk kepeduliaan lingkungan yang bisa Anda mulai lakukan adalah dengan mengumpulkan jenis sampah yang biasa Anda temukan di lingkungan sekitar. Salah satu jenis sampah yang sering kita jumpai di kehidupan sehari-hari adalah kaleng dan aluminium kemasan minuman.\n\nJenis kaleng ini memiliki tekstur yang sangat tipis dan bobotnya ringan. Biasanya jenis sampah ini kita jumpai dalam bentuk kaleng biskuit, kemasan minuman ringan, sampai dengan kaleng susu formula.</string>
+    <string name="kertas"><b>2. Koran dan Arsip Putih</b>\n\nSatu lagi jenis sampah yang bisa kita setorkan ke bank sampah, yaitu koran dan arsip putih yang sudah tidak terpakai. Koran dan arsip putih adalah sampah anorganik yang dapat dengan mudah terurai. Akan tetapi, ketimbang berakhir di tempat sampah lebih baik dikumpulkan dan disetorkan saja ke bank sampah agar bisa didaur ulang menjadi benda yang lebih bermanfaat.</string>
+    <string name="botol"><b>3. Botol Kemasan Limbah Rumah Tangga</b>\n\nYang dimaksud dengan botol kemasan limbah rumah tangga adalah botol shampo, botol deterjen, tutup galon, sampai dengan kemasan skin care. Clean up semua kemasan limbah rumah tangga dan kumpulkan menjadi satu. Jika kemasannya terbuat dari plastik, bank sampah bisa mengolahnya kembali menjadi biji plastik untuk memproduksi kemasan baru yang lebih ramah lingkungan.</string>
+    <string name="plastik"><b>4. Plastik Bening Berbentuk Gelas</b>\n\nKumpulkan kemasan air mineral berbentuk gelas. Jika sudah banyak dan menggunung, silakan berikan gelas air mineral tersebut ke bank sampah. Bukan hanya plastik bening berbentuk gelas saja, kemasan air mineral dalam bentuk botol berbagai ukuran pun juga diterima oleh bank sampah.</string>
+    <string name="elektronik"><b>5. Barang Elektronik</b>\n\nBagi Anda yang bingung membuang barang elektronik yang sudah tidak terpakai, berikan saja kepada bank sampah. Ya, bank sampah juga menerima sampah berupa barang elektronik yang sudah rusak dan tidak terpakai. Sejumlah barang elektronik yang kerap kali disetorkan ke bank sampah adalah televisi, komputer, dispenser, rice cooker, sampai dengan termos air.</string>
+    <string name="kaca"><b>6. Botol Kaca</b>\n\nBanyak yang berpendapat bahwa bank sampah tidak akan menerima sampah dari material kaca. Faktanya, bank sampah tetap menerima sampah yang terbuat dari kaca. Jadi, jika Anda memiliki botol kecap, botol minuman ringan, sampai dengan toples selai yang sudah kosong, sebaiknya kumpulkan sampai banyak dan serahkan ke bank sampah. \n\nSekadar informasi, material kaca termasuk sampah anorganik yang tidak mudah terurai. Agar tidak berakhir sebagai limbah yang mencemari lingkungan, sebaiknya berikan saja pada bank sampah agar bisa diolah kembali menjadi sesuatu yang lebih bermanfaat.</string>
+    <string name="tembaga"><b>7. Tembaga</b>\n\nAdakah jenis sampah yang terbuat dari material tembaga? Tentu saja ada. Sebagai contoh, irisan serabut bagian dalam kabel termasuk jenis benda yang terbuat dari tembaga. Apabila Anda memiliki sampah berupa kabel rusak dalam jumlah banyak, tak perlu khawatir bank sampah mau menerimanya kok. \n\nBank sampah umumnya tidak menerima sampah organik dan hanya berfokus pada sampah-sampah anorganik saja. Jadi, kumpulkan semua sampah anorganik di sekitar Anda dan setorkan ke bank sampah terdekat. \n\nTahukah Anda kebiasaan menyetorkan sampah ke bank sampah tidak hanya semata-mata untuk kepeduliaan lingkungan. Namun, juga menjadi salah satu cara terbaik untuk menabung. Pasalnya, sampah yang disetorkan juga akan dikonversi dalam bentuk uang yang akan diberikan kepada nasabah bank sampah.</string>
+    <string-array name="kategori_sampah">
+        <item>Plastik</item>
+        <item>Logam</item>
+        <item>Kertas</item>
+        <item>Karet</item>
+        <item>Logam</item>
+        <item>Tembaga</item>
+        <item>Elektronik</item>
+    </string-array>
+    <string-array name="harga_perkilo">
+        <item>1500</item>
+        <item>3000</item>
+        <item>800</item>
+        <item>1000</item>
+        <item>6000</item>
+        <item>36000</item>
+        <item>43000</item>
+    </string-array>
+</resources>
