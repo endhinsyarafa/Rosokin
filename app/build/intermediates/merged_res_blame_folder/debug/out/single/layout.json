@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "com.app.bankrosok.app-mergeDebugResources-26:/layout/activity_main.xml",
+        "source": "com.app.bankrosok.app-main-29:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\akmal\\.gradle\\daemon\\7.3.3\\com.app.bankrosok.app-mergeDebugResources-26:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\akmal\\.gradle\\daemon\\7.3.3\\com.app.bankrosok.app-main-29:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\akmal\\.gradle\\daemon\\7.3.3\\com.app.bankrosok.app-mergeDebugResources-26:\\layout\\activity_jenis_sampah.xml",
+        "source": "C:\\Users\\akmal\\.gradle\\daemon\\7.3.3\\com.app.bankrosok.app-main-29:\\layout\\activity_jenis_sampah.xml"
+    },
+    {
+        "merged": "C:\\Users\\akmal\\.gradle\\daemon\\7.3.3\\com.app.bankrosok.app-mergeDebugResources-26:\\layout\\activity_input_data.xml",
+        "source": "C:\\Users\\akmal\\.gradle\\daemon\\7.3.3\\com.app.bankrosok.app-main-29:\\layout\\activity_input_data.xml"
+    },
+    {
+        "merged": "C:\\Users\\akmal\\.gradle\\daemon\\7.3.3\\com.app.bankrosok.app-mergeDebugResources-26:\\layout\\activity_riwayat.xml",
+        "source": "C:\\Users\\akmal\\.gradle\\daemon\\7.3.3\\com.app.bankrosok.app-main-29:\\layout\\activity_riwayat.xml"
+    },
+    {
+        "merged": "C:\\Users\\akmal\\.gradle\\daemon\\7.3.3\\com.app.bankrosok.app-mergeDebugResources-26:\\layout\\list_item_riwayat.xml",
+        "source": "C:\\Users\\akmal\\.gradle\\daemon\\7.3.3\\com.app.bankrosok.app-main-29:\\layout\\list_item_riwayat.xml"
+    },
+    {
+        "merged": "C:\\Users\\akmal\\.gradle\\daemon\\7.3.3\\com.app.bankrosok.app-mergeDebugResources-26:\\layout\\activity_maps.xml",
+        "source": "C:\\Users\\akmal\\.gradle\\daemon\\7.3.3\\com.app.bankrosok.app-main-29:\\layout\\activity_maps.xml"
+    },
+    {
+        "merged": "C:\\Users\\akmal\\.gradle\\daemon\\7.3.3\\com.app.bankrosok.app-mergeDebugResources-26:\\layout\\content_main.xml",
+        "source": "C:\\Users\\akmal\\.gradle\\daemon\\7.3.3\\com.app.bankrosok.app-main-29:\\layout\\content_main.xml"
+    }
+]

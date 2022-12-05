@@ -26,4 +26,8 @@
         <item>36000</item>
         <item>43000</item>
     </string-array>
+    <string name="title_activity_maps">MapsActivity</string>
+
+    <string name="getting_location">"Sedang mendapatkan lokasi..."</string>
+    <string name="choose_location">Perbaharui Lokasi</string>
 </resources>

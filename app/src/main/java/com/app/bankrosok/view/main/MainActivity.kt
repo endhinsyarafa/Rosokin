@@ -13,6 +13,9 @@ import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import com.app.bankrosok.R
+import com.app.bankrosok.databinding.ActivityMainBinding
+import com.app.bankrosok.model.UserLocation
+import com.app.bankrosok.sharedpref.UserLocationPreferences
 import com.app.bankrosok.view.history.RiwayatActivity
 import com.app.bankrosok.view.input.InputDataActivity
 import com.app.bankrosok.view.jenis.JenisSampahActivity
@@ -30,15 +33,30 @@ class MainActivity : AppCompatActivity() {
     lateinit var strCurrentLocation: String
     lateinit var simpleLocation: SimpleLocation
 
+    private lateinit var userLocationPreferences: UserLocationPreferences
+    private lateinit var userLocation: UserLocation
+
+    private lateinit var binding: ActivityMainBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+
+        userLocationPreferences = UserLocationPreferences(this)
 
         setPermission()
         setStatusBar()
         setLocation()
         setInitLayout()
         setCurrentLocation()
+
+        binding.locationLayout.setOnClickListener {
+            setLocation()
+            setCurrentLocation()
+
+        }
     }
 
     private fun setLocation() {
@@ -55,8 +73,29 @@ class MainActivity : AppCompatActivity() {
         strCurrentLocation = "$strCurrentLatitude,$strCurrentLongitude"
     }
 
+    private fun setCurrentLocation() {
+        val geocoder = Geocoder(this, Locale.getDefault())
+
+        tvCurrentLocation.text = getString(R.string.getting_location)
+        try {
+            val addressList = geocoder.getFromLocation(strCurrentLatitude, strCurrentLongitude, 1)
+            if (addressList != null && addressList.size > 0) {
+                val strCurrentLocation = addressList[0].locality
+                val completeAddress = addressList[0].getAddressLine(0)
+
+                userLocationPreferences.setUserLocation(completeAddress)
+
+                tvCurrentLocation.text = strCurrentLocation
+                tvCurrentLocation.isSelected = true
+            }
+        } catch (e: IOException) {
+            e.printStackTrace()
+        }
+    }
+
+
     private fun setInitLayout() {
-        cvInput.setOnClickListener { v: View? ->
+        cvInput.setOnClickListener {
             val intent = Intent(this@MainActivity, InputDataActivity::class.java)
             startActivity(intent)
         }
@@ -73,9 +112,20 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setPermission() {
-        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED
-            && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
-            ActivityCompat.requestPermissions(this, arrayOf(Manifest.permission.ACCESS_FINE_LOCATION), REQ_PERMISSION)
+        if (ActivityCompat.checkSelfPermission(
+                this,
+                Manifest.permission.ACCESS_FINE_LOCATION
+            ) != PackageManager.PERMISSION_GRANTED
+            && ActivityCompat.checkSelfPermission(
+                this,
+                Manifest.permission.ACCESS_COARSE_LOCATION
+            ) != PackageManager.PERMISSION_GRANTED
+        ) {
+            ActivityCompat.requestPermissions(
+                this,
+                arrayOf(Manifest.permission.ACCESS_FINE_LOCATION),
+                REQ_PERMISSION
+            )
         }
     }
 
@@ -96,26 +146,19 @@ class MainActivity : AppCompatActivity() {
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
-        if (requestCode == REQ_PERMISSION && resultCode == RESULT_OK) { }
+        if (requestCode == REQ_PERMISSION && resultCode == RESULT_OK) {
+        }
     }
 
-    private fun setCurrentLocation() {
-        val geocoder = Geocoder(this, Locale.getDefault())
-        try {
-            val addressList = geocoder.getFromLocation(strCurrentLatitude, strCurrentLongitude, 1)
-            if (addressList != null && addressList.size > 0) {
-                val strCurrentLocation = addressList[0].locality
-                tvCurrentLocation.text = strCurrentLocation
-                tvCurrentLocation.isSelected = true
-            }
-        } catch (e: IOException) {
-            e.printStackTrace()
-        }
+    override fun onResume() {
+        super.onResume()
+        simpleLocation.beginUpdates()
     }
 
     private fun setStatusBar() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-            window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_LAYOUT_STABLE or View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
+            window.decorView.systemUiVisibility =
+                View.SYSTEM_UI_FLAG_LAYOUT_STABLE or View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
         }
         if (Build.VERSION.SDK_INT >= 21) {
             setWindowFlag(this, WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS, false)

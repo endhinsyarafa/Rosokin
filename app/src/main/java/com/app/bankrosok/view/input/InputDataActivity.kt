@@ -18,6 +18,8 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import com.app.bankrosok.R
+import com.app.bankrosok.databinding.ActivityInputDataBinding
+import com.app.bankrosok.sharedpref.UserLocationPreferences
 import com.app.bankrosok.utils.FunctionHelper.rupiahFormat
 import com.app.bankrosok.viewmodel.InputDataViewModel
 import kotlinx.android.synthetic.main.activity_input_data.*
@@ -25,6 +27,9 @@ import java.text.SimpleDateFormat
 import java.util.*
 
 class InputDataActivity : AppCompatActivity() {
+
+    private lateinit var userLocationPreferences: UserLocationPreferences
+    private lateinit var binding: ActivityInputDataBinding
 
     lateinit var inputDataViewModel: InputDataViewModel
     lateinit var strNama: String
@@ -41,7 +46,12 @@ class InputDataActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_input_data)
+
+        binding = ActivityInputDataBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+
+        userLocationPreferences = UserLocationPreferences(this)
+
         setStatusBar()
         setToolbar()
         setInitLayout()
@@ -61,6 +71,8 @@ class InputDataActivity : AppCompatActivity() {
         strHarga = resources.getStringArray(R.array.harga_perkilo)
 
         inputDataViewModel = ViewModelProvider(this, ViewModelProvider.AndroidViewModelFactory.getInstance(this.application)).get(InputDataViewModel::class.java)
+
+        binding.inputAlamat.setText(userLocationPreferences.getUserLocation().location)
 
         val arrayBahasa = ArrayAdapter(this@InputDataActivity, android.R.layout.simple_list_item_1, strKategori)
         arrayBahasa.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
@@ -129,6 +141,7 @@ class InputDataActivity : AppCompatActivity() {
     }
 
     private fun setInputData() {
+
         btnCheckout.setOnClickListener { v: View? ->
             strNama = inputNama.text.toString()
             strTanggal = inputTanggal.text.toString()
