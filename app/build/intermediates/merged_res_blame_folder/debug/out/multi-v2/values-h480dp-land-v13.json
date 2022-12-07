@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.app.bankrosok.app-mergeDebugResources-25:/values-h480dp-land-v13/values-h480dp-land-v13.xml",
+            "outputFile": "com.app.bankrosok.app-mergeDebugResources-31:/values-h480dp-land-v13/values-h480dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\akmal\\.gradle\\caches\\transforms-3\\f14a4ff6efa0faba9f4454a4ff2c6b7c\\transformed\\material-1.5.0\\res\\values-h480dp-land-v13\\values-h480dp-land-v13.xml",
+                    "source": "C:\\Users\\akmal\\.gradle\\caches\\transforms-3\\22274a3fcf2ab5bf15e03e31a9e0353f\\transformed\\material-1.6.0\\res\\values-h480dp-land-v13\\values-h480dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

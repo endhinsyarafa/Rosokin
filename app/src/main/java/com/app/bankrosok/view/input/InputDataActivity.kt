@@ -22,7 +22,10 @@ import com.app.bankrosok.databinding.ActivityInputDataBinding
 import com.app.bankrosok.sharedpref.UserLocationPreferences
 import com.app.bankrosok.utils.FunctionHelper.rupiahFormat
 import com.app.bankrosok.viewmodel.InputDataViewModel
-import kotlinx.android.synthetic.main.activity_input_data.*
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.ktx.Firebase
+//import kotlinx.android.synthetic.main.activity_input_data.*
 import java.text.SimpleDateFormat
 import java.util.*
 
@@ -44,6 +47,8 @@ class InputDataActivity : AppCompatActivity() {
     var countBerat = 0
     var countHarga = 0
 
+    private lateinit var firebaseAuth: FirebaseAuth
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -59,7 +64,7 @@ class InputDataActivity : AppCompatActivity() {
     }
 
     private fun setToolbar() {
-        setSupportActionBar(toolbar)
+        setSupportActionBar(binding.toolbar)
         if (supportActionBar != null) {
             supportActionBar?.setDisplayHomeAsUpEnabled(true)
             supportActionBar?.setDisplayShowTitleEnabled(false)
@@ -67,18 +72,22 @@ class InputDataActivity : AppCompatActivity() {
     }
 
     private fun setInitLayout() {
+        firebaseAuth = Firebase.auth
+        val firebaseUser = firebaseAuth.currentUser
+
         strKategori = resources.getStringArray(R.array.kategori_sampah)
         strHarga = resources.getStringArray(R.array.harga_perkilo)
 
         inputDataViewModel = ViewModelProvider(this, ViewModelProvider.AndroidViewModelFactory.getInstance(this.application)).get(InputDataViewModel::class.java)
 
         binding.inputAlamat.setText(userLocationPreferences.getUserLocation().location)
+        binding.inputNama.setText(firebaseUser?.displayName)
 
         val arrayBahasa = ArrayAdapter(this@InputDataActivity, android.R.layout.simple_list_item_1, strKategori)
         arrayBahasa.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
-        spKategori.setAdapter(arrayBahasa)
+        binding.spKategori.setAdapter(arrayBahasa)
 
-        spKategori.setOnItemSelectedListener(object : AdapterView.OnItemSelectedListener {
+        binding.spKategori.setOnItemSelectedListener(object : AdapterView.OnItemSelectedListener {
             override fun onItemSelected(
                 parent: AdapterView<*>,
                 view: View,
@@ -87,35 +96,35 @@ class InputDataActivity : AppCompatActivity() {
             ) {
                 strKategoriSelected = parent.getItemAtPosition(position).toString()
                 strHargaSelected = strHarga[position]
-                spKategori.setEnabled(true)
+                binding.spKategori.setEnabled(true)
                 countHarga = strHargaSelected.toInt()
-                if (inputBerat.getText().toString() != "") {
-                    countBerat = inputBerat.getText().toString().toInt()
+                if (binding.inputBerat.getText().toString() != "") {
+                    countBerat = binding.inputBerat.getText().toString().toInt()
                     setTotalPrice(countBerat)
                 } else {
-                    inputHarga.setText(rupiahFormat(countHarga))
+                    binding.inputHarga.setText(rupiahFormat(countHarga))
                 }
             }
 
             override fun onNothingSelected(adapterView: AdapterView<*>?) {}
         })
 
-        inputBerat.addTextChangedListener(object : TextWatcher {
+        binding.inputBerat.addTextChangedListener(object : TextWatcher {
             override fun onTextChanged(s: CharSequence, start: Int, before: Int, count: Int) {}
             override fun beforeTextChanged(s: CharSequence, start: Int, count: Int, after: Int) {}
             override fun afterTextChanged(editable: Editable) {
-                inputBerat.removeTextChangedListener(this)
+                binding.inputBerat.removeTextChangedListener(this)
                 if (editable.length > 0) {
                     countBerat = editable.toString().toInt()
                     setTotalPrice(countBerat)
                 } else {
-                    inputHarga.setText(rupiahFormat(countHarga))
+                    binding.inputHarga.setText(rupiahFormat(countHarga))
                 }
-                inputBerat.addTextChangedListener(this)
+                binding.inputBerat.addTextChangedListener(this)
             }
         })
 
-        inputTanggal.setOnClickListener { view: View? ->
+        binding.inputTanggal.setOnClickListener { view: View? ->
             val tanggalJemput = Calendar.getInstance()
             val date =
                 OnDateSetListener { view1: DatePicker?, year: Int, monthOfYear: Int, dayOfMonth: Int ->
@@ -124,7 +133,7 @@ class InputDataActivity : AppCompatActivity() {
                     tanggalJemput[Calendar.DAY_OF_MONTH] = dayOfMonth
                     val strFormatDefault = "d MMMM yyyy"
                     val simpleDateFormat = SimpleDateFormat(strFormatDefault, Locale.getDefault())
-                    inputTanggal.setText(simpleDateFormat.format(tanggalJemput.time))
+                    binding.inputTanggal.setText(simpleDateFormat.format(tanggalJemput.time))
                 }
             DatePickerDialog(
                 this@InputDataActivity, date,
@@ -137,16 +146,16 @@ class InputDataActivity : AppCompatActivity() {
 
     private fun setTotalPrice(berat: Int) {
         countTotal = countHarga * berat
-        inputHarga.setText(rupiahFormat(countTotal))
+        binding.inputHarga.setText(rupiahFormat(countTotal))
     }
 
     private fun setInputData() {
 
-        btnCheckout.setOnClickListener { v: View? ->
-            strNama = inputNama.text.toString()
-            strTanggal = inputTanggal.text.toString()
-            strAlamat = inputAlamat.text.toString()
-            strCatatan = inputTambahan.text.toString()
+        binding.btnCheckout.setOnClickListener { v: View? ->
+            strNama = binding.inputNama.text.toString()
+            strTanggal = binding.inputTanggal.text.toString()
+            strAlamat = binding.inputAlamat.text.toString()
+            strCatatan = binding.inputTambahan.text.toString()
             if (strNama.isEmpty() or strTanggal.isEmpty() or strAlamat.isEmpty() or (strKategori.size == 0) or (countBerat == 0) or (countHarga == 0)) {
                 Toast.makeText(
                     this@InputDataActivity,

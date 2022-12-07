@@ -14,14 +14,17 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.app.bankrosok.R
+import com.app.bankrosok.databinding.ActivityLoginBinding
+import com.app.bankrosok.databinding.ActivityRiwayatBinding
 import com.app.bankrosok.model.ModelDatabase
 import com.app.bankrosok.utils.FunctionHelper
 import com.app.bankrosok.view.history.RiwayatAdapter.RiwayatAdapterCallback
 import com.app.bankrosok.viewmodel.RiwayatViewModel
-import kotlinx.android.synthetic.main.activity_riwayat.*
 import java.util.*
 
 class RiwayatActivity : AppCompatActivity(), RiwayatAdapterCallback {
+
+    private lateinit var binding: ActivityRiwayatBinding
 
     var modelDatabaseList: MutableList<ModelDatabase> = ArrayList()
     lateinit var riwayatAdapter: RiwayatAdapter
@@ -29,7 +32,10 @@ class RiwayatActivity : AppCompatActivity(), RiwayatAdapterCallback {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_riwayat)
+
+        binding = ActivityRiwayatBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+
         setStatusBar()
         setToolbar()
         setInitLayout()
@@ -37,7 +43,7 @@ class RiwayatActivity : AppCompatActivity(), RiwayatAdapterCallback {
     }
 
     private fun setToolbar() {
-        setSupportActionBar(toolbar)
+        setSupportActionBar(binding.toolbar)
         if (supportActionBar != null) {
             supportActionBar?.setDisplayHomeAsUpEnabled(true)
             supportActionBar?.setDisplayShowTitleEnabled(false)
@@ -45,37 +51,37 @@ class RiwayatActivity : AppCompatActivity(), RiwayatAdapterCallback {
     }
 
     private fun setInitLayout() {
-        tvNotFound.setVisibility(View.GONE)
+        binding.tvNotFound.setVisibility(View.GONE)
         riwayatAdapter = RiwayatAdapter(this, modelDatabaseList, this)
-        rvHistory.setHasFixedSize(true)
-        rvHistory.setLayoutManager(LinearLayoutManager(this))
-        rvHistory.setAdapter(riwayatAdapter)
+        binding.rvHistory.setHasFixedSize(true)
+        binding.rvHistory.setLayoutManager(LinearLayoutManager(this))
+        binding.rvHistory.setAdapter(riwayatAdapter)
     }
 
     private fun setViewModel() {
         riwayatViewModel = ViewModelProviders.of(this).get(RiwayatViewModel::class.java)
 
-        riwayatViewModel.totalSaldo.observe(this, { integer ->
+        riwayatViewModel.totalSaldo.observe(this) { integer ->
             if (integer == null) {
                 val jumlahSaldo = 0
                 val initSaldo = FunctionHelper.rupiahFormat(jumlahSaldo)
-                tvSaldo.text = initSaldo
+                binding.tvSaldo.text = initSaldo
             } else {
                 val initSaldo = FunctionHelper.rupiahFormat(integer)
-                tvSaldo.text = initSaldo
+                binding.tvSaldo.text = initSaldo
             }
-        })
+        }
 
-        riwayatViewModel.dataBank.observe(this, { modelDatabases: List<ModelDatabase> ->
+        riwayatViewModel.dataBank.observe(this) { modelDatabases: List<ModelDatabase> ->
             if (modelDatabases.isEmpty()) {
-                tvNotFound.visibility = View.VISIBLE
-                rvHistory.visibility = View.GONE
+                binding.tvNotFound.visibility = View.VISIBLE
+                binding.rvHistory.visibility = View.GONE
             } else {
-                tvNotFound.visibility = View.GONE
-                rvHistory.visibility = View.VISIBLE
+                binding.tvNotFound.visibility = View.GONE
+                binding.rvHistory.visibility = View.VISIBLE
             }
             riwayatAdapter.setDataAdapter(modelDatabases)
-        })
+        }
     }
 
     private fun setStatusBar() {

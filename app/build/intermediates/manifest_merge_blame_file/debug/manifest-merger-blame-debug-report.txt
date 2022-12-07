@@ -17,154 +17,314 @@
 12-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:7:5-79
 12-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:7:22-76
 13    <uses-permission android:name="android.permission.INTERNET" />
-13-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:9:5-67
-13-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:9:22-64
+13-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:8:5-67
+13-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:8:22-64
 14
 15    <!-- Include required permissions for Google Maps API to run. -->
 16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-16-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\akmal\.gradle\caches\transforms-3\1e3efa6134c014f69715e90fb0002559\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:23:5-79
-16-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\akmal\.gradle\caches\transforms-3\1e3efa6134c014f69715e90fb0002559\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:23:22-76
+16-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\akmal\.gradle\caches\transforms-3\317a729e858b6f656cfbd19fe15e794b\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:23:5-79
+16-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\akmal\.gradle\caches\transforms-3\317a729e858b6f656cfbd19fe15e794b\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:23:22-76
 17
 18    <uses-feature
-18-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\akmal\.gradle\caches\transforms-3\1e3efa6134c014f69715e90fb0002559\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:26:5-28:35
+18-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\akmal\.gradle\caches\transforms-3\317a729e858b6f656cfbd19fe15e794b\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:26:5-28:35
 19        android:glEsVersion="0x00020000"
-19-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\akmal\.gradle\caches\transforms-3\1e3efa6134c014f69715e90fb0002559\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:27:9-41
+19-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\akmal\.gradle\caches\transforms-3\317a729e858b6f656cfbd19fe15e794b\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:27:9-41
 20        android:required="true" />
-20-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\akmal\.gradle\caches\transforms-3\1e3efa6134c014f69715e90fb0002559\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:28:9-32
+20-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\akmal\.gradle\caches\transforms-3\317a729e858b6f656cfbd19fe15e794b\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:28:9-32
 21
 22    <queries>
-22-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\akmal\.gradle\caches\transforms-3\1e3efa6134c014f69715e90fb0002559\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:30:5-34:15
+22-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\akmal\.gradle\caches\transforms-3\317a729e858b6f656cfbd19fe15e794b\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:30:5-34:15
 23
 24        <!-- Needs to be explicitly declared on Android R+ -->
 25        <package android:name="com.google.android.apps.maps" />
-25-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\akmal\.gradle\caches\transforms-3\1e3efa6134c014f69715e90fb0002559\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:33:9-64
-25-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\akmal\.gradle\caches\transforms-3\1e3efa6134c014f69715e90fb0002559\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:33:18-61
+25-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\akmal\.gradle\caches\transforms-3\317a729e858b6f656cfbd19fe15e794b\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:33:9-64
+25-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\akmal\.gradle\caches\transforms-3\317a729e858b6f656cfbd19fe15e794b\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:33:18-61
 26    </queries>
 27
 28    <application
-28-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:11:5-58:19
+28-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:10:5-70:19
 29        android:allowBackup="false"
-29-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:12:9-36
+29-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:11:9-36
 30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-30-->[androidx.core:core:1.6.0] C:\Users\akmal\.gradle\caches\transforms-3\8a670c39706e74ae26d7b981df1d3c69\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+30-->[androidx.core:core:1.6.0] C:\Users\akmal\.gradle\caches\transforms-3\daa8ddba17151df84e6cbf29ab680930\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
 31        android:debuggable="true"
 32        android:icon="@mipmap/ic_launcher"
-32-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:13:9-43
+32-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:12:9-43
 33        android:label="@string/app_name"
-33-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:14:9-41
+33-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:13:9-41
 34        android:roundIcon="@mipmap/ic_launcher_round"
-34-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:15:9-54
+34-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:14:9-54
 35        android:supportsRtl="true"
-35-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:16:9-35
+35-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:15:9-35
 36        android:testOnly="true"
 37        android:theme="@style/Theme.BankRosok"
-37-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:17:9-47
+37-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:16:9-47
 38        android:usesCleartextTraffic="true" >
-38-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:18:9-44
-39
-40        <!--
-41             TODO: Before you run your application, you need a Google Maps API key.
-42
-43             To get one, follow the directions here:
-44
-45                https://developers.google.com/maps/documentation/android-sdk/get-api-key
-46
-47             Once you have your API key (it starts with "AIza"), define a new property in your
-48             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
-49             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
-50        -->
-51        <meta-data
-52            android:name="com.google.android.geo.API_KEY"
-52-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:33:13-58
-53            android:value="AIzaSyBV7R2kn1DcmBQuWiuNDyBjG9nZIgc_5qg" />
-53-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:34:13-77
-54
-55        <activity
-55-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:36:9-39:59
-56            android:name="com.app.bankrosok.view.maps.MapsActivity"
-56-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:37:13-51
-57            android:exported="false"
-57-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:38:13-37
-58            android:label="@string/title_activity_maps" />
-58-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:39:13-56
-59        <activity
-59-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:40:9-42:39
-60            android:name="com.app.bankrosok.view.history.RiwayatActivity"
-60-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:41:13-57
-61            android:exported="true" />
-61-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:42:13-36
-62        <activity
-62-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:43:9-45:39
-63            android:name="com.app.bankrosok.view.input.InputDataActivity"
-63-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:44:13-57
-64            android:exported="true" />
-64-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:45:13-36
-65        <activity
-65-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:46:9-48:39
-66            android:name="com.app.bankrosok.view.jenis.JenisSampahActivity"
-66-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:47:13-59
-67            android:exported="true" />
-67-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:48:13-36
+38-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:17:9-44
+39        <activity
+39-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:19:9-25:20
+40            android:name="com.app.bankrosok.view.profile.ProfileActivity"
+40-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:20:13-57
+41            android:exported="false" >
+41-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:21:13-37
+42            <meta-data
+42-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:22:13-24:36
+43                android:name="android.app.lib_name"
+43-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:23:17-52
+44                android:value="" />
+44-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:24:17-33
+45        </activity>
+46        <activity
+46-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:26:9-32:20
+47            android:name="com.app.bankrosok.view.login.LoginActivity"
+47-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:27:13-53
+48            android:exported="false" >
+48-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:28:13-37
+49            <meta-data
+49-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:22:13-24:36
+50                android:name="android.app.lib_name"
+50-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:23:17-52
+51                android:value="" />
+51-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:24:17-33
+52        </activity>
+53        <!--
+54             TODO: Before you run your application, you need a Google Maps API key.
+55
+56             To get one, follow the directions here:
+57
+58                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+59
+60             Once you have your API key (it starts with "AIza"), define a new property in your
+61             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+62             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+63        -->
+64        <meta-data
+65            android:name="com.google.android.geo.API_KEY"
+65-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:45:13-58
+66            android:value="AIzaSyBV7R2kn1DcmBQuWiuNDyBjG9nZIgc_5qg" />
+66-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:46:13-77
+67
 68        <activity
-68-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:49:9-57:20
-69            android:name="com.app.bankrosok.view.main.MainActivity"
-69-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:50:13-51
-70            android:exported="true" >
-70-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:51:13-36
-71            <intent-filter>
-71-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:52:13-56:29
-72                <action android:name="android.intent.action.MAIN" />
-72-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:53:17-69
-72-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:53:25-66
-73
-74                <category android:name="android.intent.category.LAUNCHER" />
-74-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:55:17-77
-74-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:55:27-74
-75            </intent-filter>
-76        </activity>
-77        <!-- Needs to be explicitly declared on P+ -->
-78        <uses-library
-78-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\akmal\.gradle\caches\transforms-3\1e3efa6134c014f69715e90fb0002559\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:39:9-41:40
-79            android:name="org.apache.http.legacy"
-79-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\akmal\.gradle\caches\transforms-3\1e3efa6134c014f69715e90fb0002559\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:40:13-50
-80            android:required="false" />
-80-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\akmal\.gradle\caches\transforms-3\1e3efa6134c014f69715e90fb0002559\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:41:13-37
-81
-82        <activity
-82-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\akmal\.gradle\caches\transforms-3\6cd4b1c839a16e0e119c085ad9f30917\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
-83            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-83-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\akmal\.gradle\caches\transforms-3\6cd4b1c839a16e0e119c085ad9f30917\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:24:13-79
-84            android:exported="false"
-84-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\akmal\.gradle\caches\transforms-3\6cd4b1c839a16e0e119c085ad9f30917\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:25:13-37
-85            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-85-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\akmal\.gradle\caches\transforms-3\6cd4b1c839a16e0e119c085ad9f30917\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:26:13-72
+68-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:48:9-51:59
+69            android:name="com.app.bankrosok.view.maps.MapsActivity"
+69-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:49:13-51
+70            android:exported="false"
+70-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:50:13-37
+71            android:label="@string/title_activity_maps" />
+71-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:51:13-56
+72        <activity
+72-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:52:9-54:39
+73            android:name="com.app.bankrosok.view.history.RiwayatActivity"
+73-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:53:13-57
+74            android:exported="true" />
+74-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:54:13-36
+75        <activity
+75-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:55:9-57:39
+76            android:name="com.app.bankrosok.view.input.InputDataActivity"
+76-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:56:13-57
+77            android:exported="true" />
+77-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:57:13-36
+78        <activity
+78-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:58:9-60:39
+79            android:name="com.app.bankrosok.view.jenis.JenisSampahActivity"
+79-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:59:13-59
+80            android:exported="true" />
+80-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:60:13-36
+81        <activity
+81-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:61:9-69:20
+82            android:name="com.app.bankrosok.view.main.MainActivity"
+82-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:62:13-51
+83            android:exported="true" >
+83-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:63:13-36
+84            <intent-filter>
+84-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:64:13-68:29
+85                <action android:name="android.intent.action.MAIN" />
+85-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:65:17-69
+85-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:65:25-66
 86
-87        <meta-data
-87-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\akmal\.gradle\caches\transforms-3\0380d7203cc370f6e4eff77b0868f61e\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:23:9-25:69
-88            android:name="com.google.android.gms.version"
-88-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\akmal\.gradle\caches\transforms-3\0380d7203cc370f6e4eff77b0868f61e\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:24:13-58
-89            android:value="@integer/google_play_services_version" />
-89-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\akmal\.gradle\caches\transforms-3\0380d7203cc370f6e4eff77b0868f61e\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:25:13-66
+87                <category android:name="android.intent.category.LAUNCHER" />
+87-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:67:17-77
+87-->C:\Users\akmal\AndroidStudioProjects\dicoding\Rosokin\app\src\main\AndroidManifest.xml:67:27-74
+88            </intent-filter>
+89        </activity>
 90
 91        <service
-91-->[androidx.room:room-runtime:2.3.0] C:\Users\akmal\.gradle\caches\transforms-3\5aeeb74fb70e275e87f910eba3eda0e4\transformed\room-runtime-2.3.0\AndroidManifest.xml:25:9-28:40
-92            android:name="androidx.room.MultiInstanceInvalidationService"
-92-->[androidx.room:room-runtime:2.3.0] C:\Users\akmal\.gradle\caches\transforms-3\5aeeb74fb70e275e87f910eba3eda0e4\transformed\room-runtime-2.3.0\AndroidManifest.xml:26:13-74
+91-->[com.google.firebase:firebase-auth-ktx:21.1.0] C:\Users\akmal\.gradle\caches\transforms-3\882e5f8ea37d0f1f3d4c46d270e8a116\transformed\jetified-firebase-auth-ktx-21.1.0\AndroidManifest.xml:8:9-14:19
+92            android:name="com.google.firebase.components.ComponentDiscoveryService"
+92-->[com.google.firebase:firebase-auth-ktx:21.1.0] C:\Users\akmal\.gradle\caches\transforms-3\882e5f8ea37d0f1f3d4c46d270e8a116\transformed\jetified-firebase-auth-ktx-21.1.0\AndroidManifest.xml:9:13-84
 93            android:directBootAware="true"
-93-->[androidx.room:room-runtime:2.3.0] C:\Users\akmal\.gradle\caches\transforms-3\5aeeb74fb70e275e87f910eba3eda0e4\transformed\room-runtime-2.3.0\AndroidManifest.xml:27:13-43
-94            android:exported="false" />
-94-->[androidx.room:room-runtime:2.3.0] C:\Users\akmal\.gradle\caches\transforms-3\5aeeb74fb70e275e87f910eba3eda0e4\transformed\room-runtime-2.3.0\AndroidManifest.xml:28:13-37
-95
-96        <provider
-96-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\akmal\.gradle\caches\transforms-3\2d2fef36342385db669a1ab9402e8fdc\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
-97            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-97-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\akmal\.gradle\caches\transforms-3\2d2fef36342385db669a1ab9402e8fdc\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
-98            android:authorities="com.app.bankrosok.lifecycle-process"
-98-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\akmal\.gradle\caches\transforms-3\2d2fef36342385db669a1ab9402e8fdc\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
-99            android:exported="false"
-99-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\akmal\.gradle\caches\transforms-3\2d2fef36342385db669a1ab9402e8fdc\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
-100            android:multiprocess="true" />
-100-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\akmal\.gradle\caches\transforms-3\2d2fef36342385db669a1ab9402e8fdc\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
-101    </application>
-102
-103</manifest>
+93-->[com.google.firebase:firebase-common:20.2.0] C:\Users\akmal\.gradle\caches\transforms-3\2ef1298b12efd9bc2031517ed40c334f\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:34:13-43
+94            android:exported="false" >
+94-->[com.google.firebase:firebase-auth-ktx:21.1.0] C:\Users\akmal\.gradle\caches\transforms-3\882e5f8ea37d0f1f3d4c46d270e8a116\transformed\jetified-firebase-auth-ktx-21.1.0\AndroidManifest.xml:10:13-37
+95            <meta-data
+95-->[com.google.firebase:firebase-auth-ktx:21.1.0] C:\Users\akmal\.gradle\caches\transforms-3\882e5f8ea37d0f1f3d4c46d270e8a116\transformed\jetified-firebase-auth-ktx-21.1.0\AndroidManifest.xml:11:13-13:85
+96                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthKtxRegistrar"
+96-->[com.google.firebase:firebase-auth-ktx:21.1.0] C:\Users\akmal\.gradle\caches\transforms-3\882e5f8ea37d0f1f3d4c46d270e8a116\transformed\jetified-firebase-auth-ktx-21.1.0\AndroidManifest.xml:12:17-116
+97                android:value="com.google.firebase.components.ComponentRegistrar" />
+97-->[com.google.firebase:firebase-auth-ktx:21.1.0] C:\Users\akmal\.gradle\caches\transforms-3\882e5f8ea37d0f1f3d4c46d270e8a116\transformed\jetified-firebase-auth-ktx-21.1.0\AndroidManifest.xml:13:17-82
+98            <meta-data
+98-->[com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\akmal\.gradle\caches\transforms-3\0acfcf25b61871ad4be820e966602d4a\transformed\jetified-firebase-common-ktx-20.2.0\AndroidManifest.xml:14:13-16:85
+99                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+99-->[com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\akmal\.gradle\caches\transforms-3\0acfcf25b61871ad4be820e966602d4a\transformed\jetified-firebase-common-ktx-20.2.0\AndroidManifest.xml:15:17-113
+100                android:value="com.google.firebase.components.ComponentRegistrar" />
+100-->[com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\akmal\.gradle\caches\transforms-3\0acfcf25b61871ad4be820e966602d4a\transformed\jetified-firebase-common-ktx-20.2.0\AndroidManifest.xml:16:17-82
+101            <meta-data
+101-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\akmal\.gradle\caches\transforms-3\6d2e0bb9bc4155903baf48f613724bfb\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:67:13-69:85
+102                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+102-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\akmal\.gradle\caches\transforms-3\6d2e0bb9bc4155903baf48f613724bfb\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:68:17-109
+103                android:value="com.google.firebase.components.ComponentRegistrar" />
+103-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\akmal\.gradle\caches\transforms-3\6d2e0bb9bc4155903baf48f613724bfb\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:69:17-82
+104        </service> <!-- Needs to be explicitly declared on P+ -->
+105        <uses-library
+105-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\akmal\.gradle\caches\transforms-3\317a729e858b6f656cfbd19fe15e794b\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:39:9-41:40
+106            android:name="org.apache.http.legacy"
+106-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\akmal\.gradle\caches\transforms-3\317a729e858b6f656cfbd19fe15e794b\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:40:13-50
+107            android:required="false" />
+107-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\akmal\.gradle\caches\transforms-3\317a729e858b6f656cfbd19fe15e794b\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:41:13-37
+108
+109        <activity
+109-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\akmal\.gradle\caches\transforms-3\d055004e71be07acb3b9190757e8fae1\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:23:9-27:75
+110            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+110-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\akmal\.gradle\caches\transforms-3\d055004e71be07acb3b9190757e8fae1\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:24:13-93
+111            android:excludeFromRecents="true"
+111-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\akmal\.gradle\caches\transforms-3\d055004e71be07acb3b9190757e8fae1\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:25:13-46
+112            android:exported="false"
+112-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\akmal\.gradle\caches\transforms-3\d055004e71be07acb3b9190757e8fae1\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:26:13-37
+113            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+113-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\akmal\.gradle\caches\transforms-3\d055004e71be07acb3b9190757e8fae1\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:27:13-72
+114        <!--
+115            Service handling Google Sign-In user revocation. For apps that do not integrate with
+116            Google Sign-In, this service will never be started.
+117        -->
+118        <service
+118-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\akmal\.gradle\caches\transforms-3\d055004e71be07acb3b9190757e8fae1\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:33:9-37:51
+119            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+119-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\akmal\.gradle\caches\transforms-3\d055004e71be07acb3b9190757e8fae1\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:34:13-89
+120            android:exported="true"
+120-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\akmal\.gradle\caches\transforms-3\d055004e71be07acb3b9190757e8fae1\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:35:13-36
+121            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+121-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\akmal\.gradle\caches\transforms-3\d055004e71be07acb3b9190757e8fae1\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:36:13-107
+122            android:visibleToInstantApps="true" />
+122-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\akmal\.gradle\caches\transforms-3\d055004e71be07acb3b9190757e8fae1\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:37:13-48
+123
+124        <activity
+124-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\akmal\.gradle\caches\transforms-3\6d2e0bb9bc4155903baf48f613724bfb\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:27:9-44:20
+125            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+125-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\akmal\.gradle\caches\transforms-3\6d2e0bb9bc4155903baf48f613724bfb\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:28:13-80
+126            android:excludeFromRecents="true"
+126-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\akmal\.gradle\caches\transforms-3\6d2e0bb9bc4155903baf48f613724bfb\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:29:13-46
+127            android:exported="true"
+127-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\akmal\.gradle\caches\transforms-3\6d2e0bb9bc4155903baf48f613724bfb\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:30:13-36
+128            android:launchMode="singleTask"
+128-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\akmal\.gradle\caches\transforms-3\6d2e0bb9bc4155903baf48f613724bfb\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:31:13-44
+129            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+129-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\akmal\.gradle\caches\transforms-3\6d2e0bb9bc4155903baf48f613724bfb\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:32:13-72
+130            <intent-filter>
+130-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\akmal\.gradle\caches\transforms-3\6d2e0bb9bc4155903baf48f613724bfb\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:33:13-43:29
+131                <action android:name="android.intent.action.VIEW" />
+131-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\akmal\.gradle\caches\transforms-3\6d2e0bb9bc4155903baf48f613724bfb\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:34:17-69
+131-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\akmal\.gradle\caches\transforms-3\6d2e0bb9bc4155903baf48f613724bfb\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:34:25-66
+132
+133                <category android:name="android.intent.category.DEFAULT" />
+133-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\akmal\.gradle\caches\transforms-3\6d2e0bb9bc4155903baf48f613724bfb\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:36:17-76
+133-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\akmal\.gradle\caches\transforms-3\6d2e0bb9bc4155903baf48f613724bfb\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:36:27-73
+134                <category android:name="android.intent.category.BROWSABLE" />
+134-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\akmal\.gradle\caches\transforms-3\6d2e0bb9bc4155903baf48f613724bfb\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:37:17-78
+134-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\akmal\.gradle\caches\transforms-3\6d2e0bb9bc4155903baf48f613724bfb\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:37:27-75
+135
+136                <data
+136-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\akmal\.gradle\caches\transforms-3\6d2e0bb9bc4155903baf48f613724bfb\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:39:17-42:51
+137                    android:host="firebase.auth"
+137-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\akmal\.gradle\caches\transforms-3\6d2e0bb9bc4155903baf48f613724bfb\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:40:21-49
+138                    android:path="/"
+138-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\akmal\.gradle\caches\transforms-3\6d2e0bb9bc4155903baf48f613724bfb\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:41:21-37
+139                    android:scheme="genericidp" />
+139-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\akmal\.gradle\caches\transforms-3\6d2e0bb9bc4155903baf48f613724bfb\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:42:21-48
+140            </intent-filter>
+141        </activity>
+142        <activity
+142-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\akmal\.gradle\caches\transforms-3\6d2e0bb9bc4155903baf48f613724bfb\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:45:9-62:20
+143            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+143-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\akmal\.gradle\caches\transforms-3\6d2e0bb9bc4155903baf48f613724bfb\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:46:13-79
+144            android:excludeFromRecents="true"
+144-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\akmal\.gradle\caches\transforms-3\6d2e0bb9bc4155903baf48f613724bfb\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:47:13-46
+145            android:exported="true"
+145-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\akmal\.gradle\caches\transforms-3\6d2e0bb9bc4155903baf48f613724bfb\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:48:13-36
+146            android:launchMode="singleTask"
+146-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\akmal\.gradle\caches\transforms-3\6d2e0bb9bc4155903baf48f613724bfb\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:49:13-44
+147            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+147-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\akmal\.gradle\caches\transforms-3\6d2e0bb9bc4155903baf48f613724bfb\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:50:13-72
+148            <intent-filter>
+148-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\akmal\.gradle\caches\transforms-3\6d2e0bb9bc4155903baf48f613724bfb\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:51:13-61:29
+149                <action android:name="android.intent.action.VIEW" />
+149-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\akmal\.gradle\caches\transforms-3\6d2e0bb9bc4155903baf48f613724bfb\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:34:17-69
+149-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\akmal\.gradle\caches\transforms-3\6d2e0bb9bc4155903baf48f613724bfb\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:34:25-66
+150
+151                <category android:name="android.intent.category.DEFAULT" />
+151-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\akmal\.gradle\caches\transforms-3\6d2e0bb9bc4155903baf48f613724bfb\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:36:17-76
+151-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\akmal\.gradle\caches\transforms-3\6d2e0bb9bc4155903baf48f613724bfb\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:36:27-73
+152                <category android:name="android.intent.category.BROWSABLE" />
+152-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\akmal\.gradle\caches\transforms-3\6d2e0bb9bc4155903baf48f613724bfb\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:37:17-78
+152-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\akmal\.gradle\caches\transforms-3\6d2e0bb9bc4155903baf48f613724bfb\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:37:27-75
+153
+154                <data
+154-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\akmal\.gradle\caches\transforms-3\6d2e0bb9bc4155903baf48f613724bfb\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:39:17-42:51
+155                    android:host="firebase.auth"
+155-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\akmal\.gradle\caches\transforms-3\6d2e0bb9bc4155903baf48f613724bfb\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:40:21-49
+156                    android:path="/"
+156-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\akmal\.gradle\caches\transforms-3\6d2e0bb9bc4155903baf48f613724bfb\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:41:21-37
+157                    android:scheme="recaptcha" />
+157-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\akmal\.gradle\caches\transforms-3\6d2e0bb9bc4155903baf48f613724bfb\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:42:21-48
+158            </intent-filter>
+159        </activity>
+160        <activity
+160-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\akmal\.gradle\caches\transforms-3\22ba6eb959e50cf26bdf5affdc93405e\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+161            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+161-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\akmal\.gradle\caches\transforms-3\22ba6eb959e50cf26bdf5affdc93405e\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+162            android:exported="false"
+162-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\akmal\.gradle\caches\transforms-3\22ba6eb959e50cf26bdf5affdc93405e\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+163            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+163-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\akmal\.gradle\caches\transforms-3\22ba6eb959e50cf26bdf5affdc93405e\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+164
+165        <provider
+165-->[com.google.firebase:firebase-common:20.2.0] C:\Users\akmal\.gradle\caches\transforms-3\2ef1298b12efd9bc2031517ed40c334f\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:25:9-30:39
+166            android:name="com.google.firebase.provider.FirebaseInitProvider"
+166-->[com.google.firebase:firebase-common:20.2.0] C:\Users\akmal\.gradle\caches\transforms-3\2ef1298b12efd9bc2031517ed40c334f\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:26:13-77
+167            android:authorities="com.app.bankrosok.firebaseinitprovider"
+167-->[com.google.firebase:firebase-common:20.2.0] C:\Users\akmal\.gradle\caches\transforms-3\2ef1298b12efd9bc2031517ed40c334f\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:27:13-72
+168            android:directBootAware="true"
+168-->[com.google.firebase:firebase-common:20.2.0] C:\Users\akmal\.gradle\caches\transforms-3\2ef1298b12efd9bc2031517ed40c334f\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:28:13-43
+169            android:exported="false"
+169-->[com.google.firebase:firebase-common:20.2.0] C:\Users\akmal\.gradle\caches\transforms-3\2ef1298b12efd9bc2031517ed40c334f\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:29:13-37
+170            android:initOrder="100" />
+170-->[com.google.firebase:firebase-common:20.2.0] C:\Users\akmal\.gradle\caches\transforms-3\2ef1298b12efd9bc2031517ed40c334f\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:30:13-36
+171
+172        <meta-data
+172-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\akmal\.gradle\caches\transforms-3\670bebebd2ea8ff19d3c06527add3adf\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+173            android:name="com.google.android.gms.version"
+173-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\akmal\.gradle\caches\transforms-3\670bebebd2ea8ff19d3c06527add3adf\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+174            android:value="@integer/google_play_services_version" />
+174-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\akmal\.gradle\caches\transforms-3\670bebebd2ea8ff19d3c06527add3adf\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+175
+176        <service
+176-->[androidx.room:room-runtime:2.3.0] C:\Users\akmal\.gradle\caches\transforms-3\08d8031b8ea9900b931060ef0852f867\transformed\room-runtime-2.3.0\AndroidManifest.xml:25:9-28:40
+177            android:name="androidx.room.MultiInstanceInvalidationService"
+177-->[androidx.room:room-runtime:2.3.0] C:\Users\akmal\.gradle\caches\transforms-3\08d8031b8ea9900b931060ef0852f867\transformed\room-runtime-2.3.0\AndroidManifest.xml:26:13-74
+178            android:directBootAware="true"
+178-->[androidx.room:room-runtime:2.3.0] C:\Users\akmal\.gradle\caches\transforms-3\08d8031b8ea9900b931060ef0852f867\transformed\room-runtime-2.3.0\AndroidManifest.xml:27:13-43
+179            android:exported="false" />
+179-->[androidx.room:room-runtime:2.3.0] C:\Users\akmal\.gradle\caches\transforms-3\08d8031b8ea9900b931060ef0852f867\transformed\room-runtime-2.3.0\AndroidManifest.xml:28:13-37
+180
+181        <provider
+181-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\akmal\.gradle\caches\transforms-3\c29cfa2880420ba5f99df65f7da6f664\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+182            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+182-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\akmal\.gradle\caches\transforms-3\c29cfa2880420ba5f99df65f7da6f664\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+183            android:authorities="com.app.bankrosok.lifecycle-process"
+183-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\akmal\.gradle\caches\transforms-3\c29cfa2880420ba5f99df65f7da6f664\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+184            android:exported="false"
+184-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\akmal\.gradle\caches\transforms-3\c29cfa2880420ba5f99df65f7da6f664\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+185            android:multiprocess="true" />
+185-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\akmal\.gradle\caches\transforms-3\c29cfa2880420ba5f99df65f7da6f664\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+186    </application>
+187
+188</manifest>
