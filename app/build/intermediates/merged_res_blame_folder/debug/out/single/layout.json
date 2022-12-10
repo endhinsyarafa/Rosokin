@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "com.app.bankrosok.app-mergeDebugResources-32:/layout/activity_input_data.xml",
+        "source": "com.app.bankrosok.app-main-35:/layout/activity_input_data.xml"
+    },
+    {
+        "merged": "com.app.bankrosok.app-mergeDebugResources-32:/layout/content_main.xml",
+        "source": "com.app.bankrosok.app-main-35:/layout/content_main.xml"
+    },
+    {
+        "merged": "com.app.bankrosok.app-mergeDebugResources-32:/layout/activity_jenis_sampah.xml",
+        "source": "com.app.bankrosok.app-main-35:/layout/activity_jenis_sampah.xml"
+    },
+    {
+        "merged": "com.app.bankrosok.app-mergeDebugResources-32:/layout/activity_main.xml",
+        "source": "com.app.bankrosok.app-main-35:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.app.bankrosok.app-mergeDebugResources-32:/layout/list_item_riwayat.xml",
+        "source": "com.app.bankrosok.app-main-35:/layout/list_item_riwayat.xml"
+    },
+    {
+        "merged": "com.app.bankrosok.app-mergeDebugResources-32:/layout/activity_riwayat.xml",
+        "source": "com.app.bankrosok.app-main-35:/layout/activity_riwayat.xml"
+    },
+    {
+        "merged": "com.app.bankrosok.app-mergeDebugResources-32:/layout/activity_login.xml",
+        "source": "com.app.bankrosok.app-main-35:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.app.bankrosok.app-mergeDebugResources-32:/layout/activity_maps.xml",
+        "source": "com.app.bankrosok.app-main-35:/layout/activity_maps.xml"
+    },
+    {
+        "merged": "com.app.bankrosok.app-mergeDebugResources-32:/layout/activity_profile.xml",
+        "source": "com.app.bankrosok.app-main-35:/layout/activity_profile.xml"
+    }
+]

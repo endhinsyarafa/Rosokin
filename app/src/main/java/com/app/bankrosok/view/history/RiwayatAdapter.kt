@@ -9,9 +9,9 @@ import android.widget.TextView
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.app.bankrosok.R
+import com.app.bankrosok.databinding.ListItemRiwayatBinding
 import com.app.bankrosok.model.ModelDatabase
 import com.app.bankrosok.utils.FunctionHelper.rupiahFormat
-import kotlinx.android.synthetic.main.list_item_riwayat.view.*
 
 
 class RiwayatAdapter(
@@ -30,7 +30,7 @@ class RiwayatAdapter(
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-        val view = LayoutInflater.from(parent.context).inflate(R.layout.list_item_riwayat, parent, false)
+        val view = ListItemRiwayatBinding.inflate(LayoutInflater.from(parent.context), parent, false)
         return ViewHolder(view)
     }
 
@@ -56,14 +56,14 @@ class RiwayatAdapter(
         return modelDatabase.size
     }
 
-    inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        var tvNama: TextView = itemView.tvNama
-        var tvDate: TextView = itemView.tvDate
-        var tvKategori: TextView = itemView.tvKategori
-        var tvBerat: TextView = itemView.tvBerat
-        var tvSaldo: TextView = itemView.tvSaldo
-        var tvStatus: TextView = itemView.tvStatus
-        var imageDelete: ImageView = itemView.imageDelete
+    inner class ViewHolder(private val binding: ListItemRiwayatBinding) : RecyclerView.ViewHolder(binding.root) {
+        var tvNama: TextView = binding.tvNama
+        var tvDate: TextView = binding.tvDate
+        var tvKategori: TextView = binding.tvKategori
+        var tvBerat: TextView = binding.tvBerat
+        var tvSaldo: TextView = binding.tvSaldo
+        var tvStatus: TextView = binding.tvStatus
+        var imageDelete: ImageView = binding.imageDelete
 
         init {
             imageDelete.setOnClickListener { view: View? ->

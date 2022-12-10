@@ -9,19 +9,25 @@ import android.view.View
 import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
 import com.app.bankrosok.R
-import kotlinx.android.synthetic.main.activity_jenis_sampah.*
+import com.app.bankrosok.databinding.ActivityJenisSampahBinding
+
+//import kotlinx.android.synthetic.main.activity_jenis_sampah.*
 
 class JenisSampahActivity : AppCompatActivity() {
 
+    private lateinit var binding: ActivityJenisSampahBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_jenis_sampah)
+
+        binding = ActivityJenisSampahBinding.inflate(layoutInflater)
+        setContentView(binding.root)
         setStatusBar()
         setToolbar()
     }
 
     private fun setToolbar() {
-        setSupportActionBar(toolbar)
+        setSupportActionBar(binding.toolbar)
         if (supportActionBar != null) {
             supportActionBar?.setDisplayHomeAsUpEnabled(true)
             supportActionBar?.setDisplayShowTitleEnabled(false)
